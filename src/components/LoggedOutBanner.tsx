@@ -2,7 +2,7 @@ import { signIn, useSession } from 'next-auth/react';
 import { Container } from './Container';
 
 export function LoggedOutBanned() {
-  const { data: session, status } = useSession();
+  const { data: session } = useSession();
 
   if (session) {
     return null;
