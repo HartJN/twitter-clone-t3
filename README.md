@@ -1,6 +1,6 @@
 # Twitter Clone T3 Stack
 
-Twitter Clone T3 Stack is a web application built using Next.js, Tailwind CSS, NextAuth, Prisma, Crate T3 App, and Day.js. It provides the functionality to create tweets, like tweets, and use infinite scroll to navigate through tweets.
+This web application is built using Next.js, Tailwind CSS, NextAuth, Prisma, Crate T3 App, and Day.js. It provides the functionality to create tweets, like tweets, and use infinite scroll to navigate through tweets.
 
 ## Features:
 
