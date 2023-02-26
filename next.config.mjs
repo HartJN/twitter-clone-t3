@@ -20,5 +20,12 @@ const config = {
     locales: ['en'],
     defaultLocale: 'en',
   },
+  images: {
+    domains: [
+      'images.unsplash.com',
+      'cloudflare-ipfs.com',
+      'cdn.discordapp.com',
+    ],
+  },
 };
 export default config;
