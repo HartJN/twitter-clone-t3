@@ -7,7 +7,7 @@ export const tweetSchema = z.object({
     .string({
       required_error: 'Your tweet is empty',
     })
-    .min(10)
+    .min(2)
     .max(280),
 });
 
