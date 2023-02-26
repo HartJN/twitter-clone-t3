@@ -1,0 +1,5 @@
+'your domain here' {
+  reverse_proxy 'docker container name':'port' {
+    header_down Strict-Transport-Security "max-age=31536000";
+  }
+}
